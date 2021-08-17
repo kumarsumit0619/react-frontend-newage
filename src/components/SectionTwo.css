@@ -1,0 +1,32 @@
+img{
+  max-width: 100%;
+  height: auto;
+}
+.container-two{
+  position: relative;
+  text-align: right;
+  color: rgb(255, 255, 255);
+}
+
+.centered-text-two p{
+  margin-left:65%;
+  bottom: 100%;
+
+}
+.centered-text-two{
+  position: absolute;
+  top: 2.5%;
+  left: 0%;
+  margin-right: 2%;
+  /*box-sizing: border-box;*/
+
+  /*transform: translate(-2.5%, 0%);
+  /*z-index: +2px;*/
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+@media screen and (max-width: 601px){
+  .centered-text-two {
+    font-size: 10px;
+  }
+}
+
